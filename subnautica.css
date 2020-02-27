@@ -1,0 +1,75 @@
+div {
+border: 5px solid #0BB6E8;
+background-color: black;
+border-radius: 50px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 400px;
+margin-bottom: 400px;
+padding: 30px;
+width: 800px;
+box-shadow; 10px 10px 20px cyan;
+}
+
+body {
+	background-image: url('rbground.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: #0BB6E8;
+	font-family: Odibee Sans;
+	font-size: 35px;
+}
+
+h1 {
+	font-family: Krona One;
+	font-size: 50px;
+}
+	.aurora {
+	width: 500px;
+	}
+	
+	h2 {
+	font-family: Krona One;
+	font-size: px;
+	}
+	
+	
+
+	
+	
+	
+	
+	li a:hover:not(.current) {
+	background-color: #61E978;
+	color: black;
+	}
+	
+	.current {
+	background-color: #61E978;
+	color: black;
+	}
+	
+	
+	ul	{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: black;
+	}
+
+	li {
+	float: left;
+	width: 200px;
+	}
+
+	li a {
+	display: block;
+	color: #0BB6E8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border: 1px solid #61E978;
+	}
