@@ -26,6 +26,10 @@ h1 {
 	font-family: Krona One;
 	font-size: 50px;
 }
+
+	.kelp {
+		width: 500px;
+	}
 	.aurora {
 	width: 500px;
 	}
@@ -33,6 +37,25 @@ h1 {
 	h2 {
 	font-family: Krona One;
 	font-size: px;
+	}
+	
+	.limestone {
+		width: 200px;
+	}
+	
+	.titanium {
+		width: 200px;
+		
+	}
+	
+	.gold {
+		width: 200px;
+		
+		
+	}
+	
+	.goldd{
+		
 	}
 	
 	
