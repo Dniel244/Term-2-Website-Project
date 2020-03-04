@@ -53,6 +53,17 @@ h1 {
 	width: 500px;
 	}
 	
+	.reaper {
+		width: 500px;
+		float: right;
+		
+		
+	}
+	
+	.reaper:hover {
+		margin-right: 100px;
+	}
+	
 	h2 {
 	font-family: Krona One;
 	font-size: px;
@@ -170,5 +181,3 @@ h1 {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-	
-	
