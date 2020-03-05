@@ -1,7 +1,7 @@
 div {
 border: 5px double #0BB6E8;
 background-color: black;
-border-radius: 50px;
+border-radius: 50px ;
 margin-left: auto;
 margin-right: auto;
 margin-top: 400px;
@@ -56,12 +56,28 @@ h1 {
 	.reaper {
 		width: 500px;
 		float: right;
+		margin-right: 100px;
 		
 		
 	}
 	
 	.reaper:hover {
+		margin-right: 200px;
+	}
+	
+	.peeper {
+		width: 400px;
+		float: right;
+		margin-top: -200px;
+	}
+	
+	.peeper:hover {
 		margin-right: 100px;
+	}
+	
+	.fabricator {
+		width: 500px;
+		border: 5px solid #61E978;
 	}
 	
 	h2 {
@@ -69,7 +85,7 @@ h1 {
 	font-size: px;
 	}
 	
-	.wiki{
+	.top {
 		color: black;
 		text-decoration: none;
 		display: inline-block;
@@ -87,7 +103,7 @@ h1 {
 }
 	}
 		
-	.wiki:visited {
+	.top:visited {
 		color: white;
 		text-decoration: none;
 		background-color: #3e8e41
@@ -95,7 +111,7 @@ h1 {
 	
 	
 	
-	.wiki:active {
+	.top:active {
   background-color: #0BB6E8;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -104,17 +120,34 @@ h1 {
 	.pengling {
 		width: 200px;
 		float: left;
-		margin-right: 
 		
+		margin-left: 50px;
+		transform: rotate(45deg);
+		
+	}
+	
+	.pengling:hover {
+		margin-left: 100px;
+		margin-top: -50px;
 	}
 	
 	.pengwing {
 		width: 200px;
 		float: right;
-		margin-top: 80px;
+		margin-right: 50px;
+		transform: rotate(-20deg);
 		
 		
 	}
+	
+	.pengwing:hover {
+		margin-right: 100px;
+		margin-top: -50px;
+	}
+	
+	
+		
+	
 	
 	.a {
 		color: #61E978;
@@ -134,6 +167,38 @@ h1 {
 		margin-top: -70px;
 		
 	}
+	
+	.d {
+		color: #61E978;
+		font-size: 25px;
+		margin-left: 30px;
+		
+	}
+	
+	.e {
+		color: #61E978;
+		font-size: 25px;
+		
+		
+	}
+	
+	.f {
+		margin-top: -1000px;
+		margin-left: 50px;
+		color: #61E978;
+	}
+	
+	.g {
+		margin-left: 1500px;
+		margin-bottom: -50px;
+		color: #61E978;
+		
+		
+		
+	}
+		
+		
+	
 	
 	
 	li a:hover:not(.current) {
@@ -167,6 +232,7 @@ h1 {
 	padding: 14px 16px;
 	text-decoration: none;
 	border: 1px solid #61E978;
+	border-radius:  50px 0px;
 	}
 	
 	
