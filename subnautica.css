@@ -20,7 +20,23 @@ body {
 	color: #0BB6E8;
 	font-family: Odibee Sans;
 	font-size: 35px;
+	text-shadow: 2px 2px 4px #1639D4;
 }
+
+p {
+	line-height: 1.5em;
+	text-indent: 50px;
+	text-align: justify;
+}
+
+p::first-letter {
+	font-size: 50px;
+	
+}
+
+
+
+
 
 h1 {
 	font-family: Krona One;
@@ -53,6 +69,7 @@ table, th, td	{
 	table{
 	border-collapse: collapse;
 	width: 400px;
+	text-shadow: none;
 	}
 	
 	th, td{
@@ -111,19 +128,19 @@ table, th, td	{
 	}
 	
 	.seamoth {
-		width: 300px;
+		width: 350px;
 		float: left;
 		border: 5px solid #61E978;
 	}
 	
 	.cyclops {
-		width: 300px;
+		width: 400px;
 		float: right;
 		border: 5px solid #61E978;
 	}
 	
 	.prawnsuit {
-		width: 300px;
+		width: 400px;
 		margin-top: 100px;
 		border: 5px solid #61E978;
 		margin-right: 180px;
@@ -165,7 +182,7 @@ table, th, td	{
 		color: black;
 		text-decoration: none;
 		display: inline-block;
-	  padding: 15px 30px;
+	  padding: 30px 50px;
 	  font-size: 24px;
 	  cursor: pointer;
 	  text-align: center;
@@ -176,6 +193,7 @@ table, th, td	{
 	  border: none;
 	  border-radius: 15px;
 	  box-shadow: 0 9px black;
+	  text-shadow: none;
 	 
 	}
 		
@@ -211,7 +229,7 @@ table, th, td	{
 	.pengwing {
 		width: 200px;
 		float: right;
-		margin-right: 50px;
+		margin-right: 90px;
 		transform: rotate(-20deg);
 		
 		
@@ -227,34 +245,39 @@ table, th, td	{
 	
 	
 	.a {
-		color: #61E978;
+		color: #0bbf89;
+		text-shadow: none;
 	}
 	
 	.b {
-		color: #61E978;
+		color: #0bbf89;
 		float: right;
 		margin-right: 100px;
 		margin-top: -500px;
+		text-shadow: none;
 		
 	}
 	
 	.c {
-		color: #61E978;
+		color: #0bbf89;
 		margin-left: 600px;
 		margin-top: -70px;
+		text-shadow: none;
 		
 	}
 	
 	.d {
-		color: #61E978;
+		color: #0bbf89;
 		font-size: 25px;
 		margin-left: 30px;
+		text-shadow: none;
 		
 	}
 	
 	.e {
-		color: #61E978;
+		color: #0bbf89;
 		font-size: 25px;
+		text-shadow: none;
 		
 		
 	}
@@ -262,34 +285,107 @@ table, th, td	{
 	.f {
 		margin-top: -1000px;
 		margin-left: 50px;
-		color: #61E978;
+		color: #0bbf89;
+		text-shadow: none;
 	}
 	
 	.g {
-		margin-left: 1500px;
-		margin-bottom: -50px;
-		color: #61E978;
+		margin-left: 1150px;
+		margin-bottom: 50px;
+		color: #0bbf89;
+		text-shadow: none;
 		
 		
 		
 	}
 	
 	.h {
-		color: #61E978;
+		color: #0bbf89;
 		float: right;
 		margin-right: 250px;
+		text-shadow: none;
 		
 	}
 	
 	.i {
-		color: #61E978;
+		color: #0bbf89;
 		margin-top: 300px;
 		margin-right: 500px;
+		text-shadow: none;
 	}
 	
 	.j {
 		margin-bottom: -50px;
+		text-shadow: none;
+		color: #0bbf89;
+		margin-left: 140px;
+		
 	}
+	
+	.k {
+		text-shadow: none;
+		color: #0bbf89;
+		font-size: 25px;
+		margin-left: 280px;
+		margin-top: 50px;
+		
+	}
+	
+	.a::first-letter {
+	font-size: 35px;
+	
+}
+
+	.b::first-letter {
+		font-size: 35px;
+		
+	}
+
+	.c::first-letter {
+		font-size: 35px;
+		
+	}
+
+	.d::first-letter {
+		font-size: 25px;
+		
+	}
+
+	.e::first-letter {
+		font-size: 25px;
+		
+	}
+
+	.f::first-letter {
+		font-size: 35px;
+		
+	}
+
+	.g::first-letter {
+		font-size: 35px;
+		
+	}
+
+	.h::first-letter {
+		font-size: 35px;
+		
+	}
+
+	.i::first-letter {
+		font-size: 35px;
+		
+	}
+
+	.j::first-letter {
+		font-size: 35px;
+		
+	}
+	
+	.k::first-letter {
+		font-size: 25px;
+	}
+		
+	
 	
 		
 		
@@ -297,13 +393,16 @@ table, th, td	{
 	
 	
 	li a:hover:not(.current) {
-	background-color: #61E978;
+	background-color: #1da37b;
 	color: black;
+
 	}
 	
 	.current {
-	background-color: #61E978;
+	background-color: #0bbf89;
 	color: black;
+	
+	
 	}
 	
 	
@@ -314,7 +413,8 @@ table, th, td	{
 	overflow: hidden;
 	background-color: black;
 	border-radius:  50px 0px;
-	border: 1px solid #61E978;
+	border: 1px solid #0bbf89;
+	text-shadow: none;
 	}
 
 	li {
@@ -328,7 +428,7 @@ table, th, td	{
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	border: 1px solid #61E978;
+	border: 1px solid #0bbf89;
 	
 	}
 	
@@ -336,11 +436,3 @@ table, th, td	{
 	
 	
 
-
-1
-
-.wiki:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
